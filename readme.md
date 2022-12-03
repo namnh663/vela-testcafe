@@ -15,7 +15,7 @@
 
 ## File Structure
 
-
+<img width="204" alt="Screenshot 2022-12-04 at 04 26 56" src="https://user-images.githubusercontent.com/74748329/205463281-9c7c5e93-b335-4804-9b12-b6d6c5f3f8ec.png">
 
 ## Create a new test
 
@@ -34,7 +34,7 @@
 
 ## Use the Page Object Model
 
-
+<img width="760" alt="Screenshot 2022-12-04 at 04 21 35" src="https://user-images.githubusercontent.com/74748329/205463291-47fb4b5d-466e-4b12-a2df-cdd45ff7e022.png">
 
 ## Authentication and Roles
 
@@ -42,6 +42,6 @@ As your test suite grows, you might prefer to use [**User Roles**](https://test
 
 ## Use reporters Tesults
 
-
+<img width="1436" alt="Screenshot 2022-12-04 at 03 39 46" src="https://user-images.githubusercontent.com/74748329/205463308-5a5887ca-4247-4e3b-8c42-5ce2f72267c6.png">
 
 **Scripts:** `testcafe safari tests/test_suite -r tesults -- tesults-target=YOUR_KEY`
