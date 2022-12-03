@@ -13,6 +13,11 @@
 - npm 8.19.2
 - testcafe 2.1.0
 
+## Project
+- Name: Swag Labs
+- Website: https://www.saucedemo.com/
+- Implemented necessary test cases for [login page](https://github.com/namnh663/testcafe/blob/master/tests/test_suite/login-test.js) and [home page](https://github.com/namnh663/testcafe/blob/master/tests/test_suite/home-test.js)
+
 ## File Structure
 
 <img width="204" alt="Screenshot 2022-12-04 at 04 26 56" src="https://user-images.githubusercontent.com/74748329/205463281-9c7c5e93-b335-4804-9b12-b6d6c5f3f8ec.png">
