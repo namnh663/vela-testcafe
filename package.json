@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe safari tests/test_suite -r tesults -- tesults-target=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjI1YjEzODdjLWNmMGEtNDQyYS1hYmEyLWRmNWRmNTIxOTIwMS0xNjcwMDk3NzAwOTcwIiwiZXhwIjo0MTAyNDQ0ODAwMDAwLCJ2ZXIiOiIwIiwic2VzIjoiYmExY2JmMjUtOTc1Ny00NjZhLWJkM2QtNWRhNzM2NTc1M2IyIiwidHlwZSI6InQifQ.ROjoEYzRSuftUOgwN-ht4lmAETWABmpaDwKGGuZJfJo"
+    "test": "testcafe safari tests/test_suite -r tesults -- tesults-target=INPUT_YOUR_KEY"
   },
   "author": "",
   "license": "ISC",
