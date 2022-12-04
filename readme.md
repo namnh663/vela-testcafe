@@ -16,6 +16,7 @@
 ## Project
 - Name: Swag Labs
 - Website: https://www.saucedemo.com/
+- IDE: VS Code
 - Implemented necessary test cases for [login page](https://github.com/namnh663/testcafe/blob/master/tests/test_suite/login-test.js) and [home page](https://github.com/namnh663/testcafe/blob/master/tests/test_suite/home-test.js)
 
 ## File Structure
@@ -44,6 +45,10 @@
 ## Authentication and Roles
 
 As your test suite grows, you might prefer to use [**User Roles**](https://testcafe.io/documentation/402845/guides/intermediate-guides/authentication#user-roles) — an easier way to manage user authentication.
+
+## Run tests
+1. Install extension [TestCafe Test Runner](https://marketplace.visualstudio.com/items?itemName=romanresh.testcafe-test-runner)
+2. Right click on the test suite or each test case you want, you will see the option "TestCafe: Run Test(s) in Browser"
 
 ## Use reporters Tesults
 
