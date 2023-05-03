@@ -57,4 +57,3 @@ As your test suite grows, you might prefer to use [**User Roles**](https://test
 ## Use reporters Tesults
 
 <img width="1436" alt="Screenshot 2022-12-04 at 03 39 46" src="https://user-images.githubusercontent.com/74748329/205463308-5a5887ca-4247-4e3b-8c42-5ce2f72267c6.png">
->>>>>>> 3f66558c (.)
