@@ -1017,7 +1017,7 @@ function generateLogicalOrBinaryExpression ($expr, settings, $parent) {
 
     operandGenSettings.precedence++;
 
-    var rightJs = exprToJs($expr.right, operandGenSettings);
+    var rightJs = exprToJs($expr.right, operandGenSettings, $expr);
 
     //NOTE: If '/' concats with '/' or `<` concats with `!--`, it is interpreted as comment start
     if (op === '/' && rightJs.charAt(0) === '/' || op.slice(-1) === '<' && rightJs.slice(0, 3) === '!--')

@@ -1,14 +1,12 @@
 [
     {
         "id": 1,
-        "username": "locked_out_user",
-        "password": "secret_sauce",
-        "message": "Epic sadface: Sorry, this user has been locked out."
+        "email": "email@gmail.com",
+        "password": "111111"
     },
     {
         "id": 2,
-        "username": "standard_user",
-        "password": "123",
-        "message": "Epic sadface: Username and password do not match any user in this service"
+        "username": "namnh663@gmail.com",
+        "password": "111111"
     }
 ]

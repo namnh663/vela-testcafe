@@ -1,0 +1,18 @@
+[
+    {
+        "id": 2,
+        "swith": "English",
+        "title": "Login",
+        "sub": "Please login to your account",
+        "eng": "English",
+        "vn": "Vietnamese"
+    },
+    {
+        "id": 3,
+        "swith": "Vietnamese",
+        "title": "Đăng nhập",
+        "sub": "Vui lòng đăng nhập tài khoản của bạn",
+        "eng": "Tiếng Anh",
+        "vn": "Tiếng Việt"
+    }
+]

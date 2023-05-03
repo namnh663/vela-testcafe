@@ -1,15 +1,27 @@
 {
   "name": "testcafe",
   "version": "1.0.0",
-  "description": "",
+  "description": "automation",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "testcafe safari tests/test_suite -r tesults -- tesults-target=INPUT_YOUR_KEY"
+=======
+    "test_pre": "testcafe chrome:headless tests/integration -r json:report.json",
+    "test_after": "testcafe chrome:headless tests/e2e/notification.js",
+    "test_e2e": "testcafe chrome:headless tests/e2e/set-password-test.js",
+    "api": "testcafe chrome:headless tests/api"
+>>>>>>> 3f66558c (.)
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "testcafe": "^2.1.0",
+    "jsonpath": "^1.1.1",
+    "ms-teams-webhook": "^2.0.1",
+    "testcafe": "^2.5.0",
     "testcafe-reporter-tesults": "^1.1.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
   }
 }

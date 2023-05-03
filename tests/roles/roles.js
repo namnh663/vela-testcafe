@@ -1,12 +1,9 @@
 import loginPage from '../page_model/login-page';
+import { userVariables } from 'testcafe';
 import { Role } from 'testcafe'
 
-const standardUser = Role('https://www.saucedemo.com/', async () => {
-    await loginPage.login('standard_user', 'secret_sauce');
+const adminUser = Role(userVariables.STAG_SSO_URL + '/Account/Login', async () => {
+    await loginPage.login('namnh663@gmail.com', '111111');
 });
 
-const problemUser = Role('https://www.saucedemo.com/', async () => {
-    await loginPage.login('problem_user', 'secret_sauce');
-});
-
-export { standardUser, problemUser };
+export { adminUser };
