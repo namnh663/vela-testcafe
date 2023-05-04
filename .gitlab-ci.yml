@@ -1,0 +1,28 @@
+variables:
+  TESULTS_INTEGRATION_TARGET_TOKEN: ""
+  TESULTS_API_TARGET_TOKEN: ""
+
+api_test:
+  image:
+    name: testcafe/testcafe
+    entrypoint: ["/bin/sh", "-c"]
+  script:
+  - /opt/testcafe/docker/testcafe-docker.sh chromium:headless tests/api -r json:report.json,tesults -- tesults-target=$TESULTS_API_TARGET_TOKEN
+  after_script:
+  - /opt/testcafe/docker/testcafe-docker.sh chromium:headless tests/e2e/send-notify-to-api-channel.js
+
+integration_test:
+  image:
+    name: testcafe/testcafe
+    entrypoint: ["/bin/sh", "-c"]
+  script:
+  - /opt/testcafe/docker/testcafe-docker.sh chromium:headless tests/integration -r json:report.json,tesults -- tesults-target=$TESULTS_INTEGRATION_TARGET_TOKEN -concurrency 1
+  after_script:
+  - /opt/testcafe/docker/testcafe-docker.sh chromium:headless tests/e2e/send-notify-to-integration-channel.js
+
+e2e_test:
+  image:
+    name: testcafe/testcafe
+    entrypoint: ["/bin/sh", "-c"]
+  script:
+  - /opt/testcafe/docker/testcafe-docker.sh chromium:headless tests/e2e/check-item-list.js --concurrency 1
