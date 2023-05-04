@@ -4,14 +4,11 @@
   "description": "automation",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
     "test": "testcafe safari tests/test_suite -r tesults -- tesults-target=INPUT_YOUR_KEY"
-=======
     "test_pre": "testcafe chrome:headless tests/integration -r json:report.json",
     "test_after": "testcafe chrome:headless tests/e2e/notification.js",
     "test_e2e": "testcafe chrome:headless tests/e2e/set-password-test.js",
     "api": "testcafe chrome:headless tests/api"
->>>>>>> 3f66558c (.)
   },
   "author": "",
   "license": "ISC",
